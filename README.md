@@ -1,6 +1,6 @@
 # Initialisation d'un projet React
 
-## 1 - Installation des packages
+## Installation des packages
 
 ```
 $ npm init
@@ -10,6 +10,13 @@ $ npm install webpack webpack-dev-server --save-dev
 $ npm install babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-2 --save-dev
 $ npm i -D babel-core
 ```
+
+## Mise en place de l'arborescence
+
+    - créer le fichier ./webpack.config.js
+    - créer le fichier ./src/index.html
+    - créer le fichier ./src/app/index.js
+    - créer le fichier ./src/components/App.js
 
 ## Script
 
@@ -29,3 +36,4 @@ $ npm i -D babel-core
 ```
 $ npm start
 ```
+    - Aller sur: http://localhost:8080/
